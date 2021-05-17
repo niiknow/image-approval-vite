@@ -1,6 +1,6 @@
 {
   "name": "image-approval-vite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build --base=/image-approval-vite/dist",
@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "@techassi/vue-lazy-image": "^1.0.0",
-    "vue": "^3.0.5",
     "vue-router": "^4.0.8"
   },
   "devDependencies": {
@@ -16,6 +15,7 @@
     "@vue/compiler-sfc": "^3.0.5",
     "typescript": "^4.1.3",
     "vite": "^2.3.0",
+    "vue": "^3.0.5",
     "vue-tsc": "^0.0.24"
   }
 }
