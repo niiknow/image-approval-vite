@@ -10,7 +10,7 @@
 		    <div>#{{ index + 1 }} - {{item.id}}</div>
 			<lazy-image
 		        :src="item.url"
-		        :id="item.id"
+		        :id="index + ''"
 		    ></lazy-image>
 	    </div>
 	</div>
