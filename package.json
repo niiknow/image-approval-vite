@@ -1,9 +1,9 @@
 {
   "name": "image-approval-vite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build --base=/dist",
+    "build": "vue-tsc --noEmit && vite build --base=/image-approval-vite/dist",
     "serve": "vite preview"
   },
   "dependencies": {
